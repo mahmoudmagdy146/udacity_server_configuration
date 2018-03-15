@@ -1,7 +1,7 @@
 # to open my project use "http://35.199.47.225/"
 # to intery to the machine useing file of: authorized_keys
    1- download the a_key file in your machine 
-   2- write in terminal >> ssh -i a_key grader@35.199.47.225 -p 2200 >> password "123450"
+   2- write in terminal >> ssh -i a_key grader@35.199.47.225 -p 2200 >> password "12345"
 /////////////////////////////////////////////////////////
 # Linux-server-configration
 ** public_ip: http://35.199.47.225 **
@@ -75,9 +75,9 @@ go to your vpn and write this in the terminal
   `psql` >> go to the shell
 
     -CREATE DATABASE data;
-    -CREATE USER alaa;
-    -ALTER ROLE alaa WITH PASSWORD 'password';
-    -GRANT ALL PRIVILEGES ON DATABASE data TO alaa;
+    -CREATE USER magdy;
+    -ALTER ROLE magdy WITH PASSWORD 'password';
+    -GRANT ALL PRIVILEGES ON DATABASE data TO magdy;
 /////////////////////////////////////////////////////////
 
 #  Install git, clone and setup your Catalog App project.
